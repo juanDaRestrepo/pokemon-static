@@ -1,15 +1,19 @@
 import { Button } from '@nextui-org/react'
+
 import type { NextPage } from 'next'
+import { Layout } from '../components/layouts';
 
 
 
 const HomePage: NextPage = () => {
   return (
-   <>
-    <Button color="gradient">
-      Hello world!
-    </Button>
-   </>
+
+    <Layout title='Pokemons list'>
+      <Button color="gradient">
+        Hello world!
+      </Button>
+    </Layout>
+   
   )
 }
 
